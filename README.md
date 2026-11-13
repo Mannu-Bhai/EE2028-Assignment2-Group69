@@ -14,6 +14,20 @@ An STM32-based simulation of an autonomous drone onboard computer, implementing 
 - B-L4S5I-IOT01A Discovery Kit
 - STM32L4S5VIT6 microcontroller
 - Additional hardware enhancements documented separately
+- Our project uses an FPGA and an STM32 breakout board. The FPGA is responsible for the radar display, including the normal and attacked radar states—hence the names “normal radar” and “attacked radar.” The STM32 breakout board serves as the project’s microcontroller platform.
+
+
+### FPGA radar
+
+![FPGA radar](images/FPGA_radar.png)
+
+### FPGA attacked state
+
+![FPGA radar in the attacked state](images/FPGA_ATTACKED_state.png)
+
+### STM32 breakout board
+
+![STM32 breakout board](images/STM32_breakout_board.png)
 
 ## Software
 - STM32CubeIDE
@@ -41,3 +55,5 @@ The complete STM32CubeIDE project, verified firmware and final presentation mate
 
 ## Build and Demo
 Instructions will be added after validating the final submitted project archive.
+
+
